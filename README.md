@@ -94,26 +94,26 @@ An interactive dashboard was built to present insights:
 ---
 
 ## 📂 Project Structure
-data/
-├── raw_customer_shopping_data.xlsx
-├── cleaned_customer_shopping_data.xlsx
 
-python/
-├── customer_shopping_eda.py
-├── customer_shopping_eda.pdf
+- **data/**
+  - raw_customer_shopping_data.xlsx  
+  - cleaned_customer_shopping_data.xlsx  
 
-sql/
-├── customer_shopping_analysis.sql
+- **python/**
+  - customer_shopping_eda.py  
+  - customer_shopping_eda.pdf  
 
-power_bi/
-├── customer_shopping_dashboard.pbix
-├── dashboard_screenshot.png
+- **sql/**
+  - customer_shopping_analysis.sql  
 
-report/
-├── customer_shopping_analysis.docx
-├── customer_shopping_analysis.pdf
-├── customer_shopping_analysis.pptx
+- **power_bi/**
+  - customer_shopping_dashboard.pbix  
+  - dashboard_screenshot.png  
 
+- **report/**
+  - customer_shopping_analysis.docx  
+  - customer_shopping_analysis.pdf  
+  - customer_shopping_analysis.pptx  
 
 ---
 
