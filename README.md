@@ -1,78 +1,125 @@
 # 🛒 Customer Shopping Behaviour Analysis
 
 ## 📌 Project Overview
-This project focuses on analyzing customer shopping behavior to understand how different factors like age, gender, season, discounts, and location affect sales.
+This project analyzes customer shopping data to understand how different factors like age, gender, season, discounts, and location affect sales.
 
-The goal is to find patterns in customer data and provide insights that can help businesses make better decisions.
+The main goal is to move from raw data to clear business insights and help improve decision-making.
 
 ---
 
 ## 🎯 Problem Statement
-Businesses often have large amounts of customer data but do not fully use it to understand buying patterns.
+Businesses collect large amounts of customer data, but often do not use it effectively to understand buying behavior.
 
-This project analyzes customer data to:
-- Identify key revenue drivers  
-- Understand customer segments  
-- Evaluate the impact of discounts and seasons  
-- Improve business decision-making  
+This project focuses on identifying:
+- Who are the most valuable customers  
+- What products drive revenue  
+- How discounts and seasons affect sales  
+- Where the business performs the best  
+
+The aim is to convert data into useful insights that support better business decisions.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Python** → Data cleaning and preprocessing  
-- **SQL** → Data analysis and querying  
-- **Power BI** → Data visualization and dashboard  
+- **Python** → Data cleaning and preparation  
+- **SQL** → Data analysis and business questions  
+- **Power BI** → Dashboard and visualization  
 
 ---
 
 ## 🔄 Project Workflow
 
 ### 1. Data Cleaning (Python)
+The raw dataset was cleaned and prepared before analysis:
 - Handled missing values  
-- Fixed data types  
-- Created age groups  
+- Fixed incorrect data types  
+- Standardized column names  
+- Created **age_group** for better segmentation  
 - Removed unnecessary columns  
 
+👉 Output: Clean dataset ready for analysis  
+
+---
+
 ### 2. Data Analysis (SQL)
-- Analyzed revenue by gender, age, season  
-- Studied customer behavior  
-- Evaluated discount impact  
-- Identified top products and locations  
+SQL was used to answer key business questions:
+- Revenue by gender, age group, and season  
+- Customer spending behavior  
+- Discount usage and impact  
+- Top products and categories  
+- Location-based performance  
+
+👉 Output: Clear understanding of revenue drivers and customer behavior  
+
+---
 
 ### 3. Dashboard (Power BI)
-- Created interactive dashboard  
-- Used slicers for filtering  
-- Displayed KPIs and trends  
+An interactive dashboard was built to present insights:
+- KPIs: Total Revenue, Customers, Orders  
+- Category and age group analysis  
+- Discount and customer behavior insights  
+- Location-based visualization (map)  
+- Slicers for filtering data  
+
+👉 Output: Easy-to-understand visual insights for decision-making  
 
 ---
 
 ## 📊 Key Insights
 
-- Male customers generate higher revenue due to higher number of customers  
-- Customers aged 35–55 contribute the most revenue  
-- Revenue is stable across all seasons (no major variation)  
-- Discounts are mainly used by customers aged 18–55  
-- Clothing and Accessories are the top-performing categories  
-- A few products and locations drive most of the sales  
+- Male customers generate more total revenue mainly due to higher customer count  
+- Customers aged **35–55** contribute the highest revenue  
+- Revenue is **consistent across all seasons**, with only small differences  
+- Discounts are mostly used by customers aged **18–55**  
+- **Clothing and Accessories** are the main revenue-generating categories  
+- A small number of products and locations contribute most of the sales  
 
 ---
 
 ## 💡 Business Recommendations
 
-- Focus on increasing customer count to boost revenue  
-- Target middle-aged customers with personalized campaigns  
-- Maintain consistent marketing across all seasons  
-- Use discounts mainly where they are effective  
-- Promote top-selling products  
-- Expand business in high-performing locations  
+- Focus on increasing customer count to improve overall revenue  
+- Target middle-aged customers with personalized marketing campaigns  
+- Maintain consistent marketing and inventory across all seasons  
+- Use discounts strategically in high-impact categories  
+- Promote top-performing products to maximize sales  
+- Expand business in high-revenue locations  
 
 ---
 
 ## 📈 Dashboard Preview
-<img width="1245" height="698" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/615a3cb5-b3f0-46d3-bf37-bd4e58602b05" />
 
 ![Dashboard](power_bi/dashboard_screenshot.png)
 
 ---
 
 ## 📂 Project Structure
+data/
+├── raw_customer_shopping_data.xlsx
+├── cleaned_customer_shopping_data.xlsx
+
+python/
+├── customer_shopping_eda.py
+├── customer_shopping_eda.pdf
+
+sql/
+├── customer_shopping_analysis.sql
+
+power_bi/
+├── customer_shopping_dashboard.pbix
+├── dashboard_screenshot.png
+
+report/
+├── customer_shopping_analysis.docx
+├── customer_shopping_analysis.pdf
+├── customer_shopping_analysis.pptx
+
+
+---
+
+## 🚀 Project Outcome
+This project shows how raw customer data can be cleaned, analyzed, and converted into meaningful insights using Python, SQL, and Power BI.
+
+It demonstrates the full data analysis process from data preparation to business recommendations.
+
+---
