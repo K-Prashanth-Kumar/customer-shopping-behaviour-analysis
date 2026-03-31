@@ -1,26 +1,25 @@
-# 📊 Data Folder
+# Data
 
-This folder contains the datasets used for the **Customer Shopping Analysis** project.
+This folder contains the dataset used for the entire analysis.
 
-## 📁 Files Included
+The project started with a raw customer shopping dataset that included information about customer demographics, product purchases, payment methods, seasons, and discounts.
 
-* `raw_customer_shopping_data.xlsx`
-  → Original dataset without any modifications
+Before starting any analysis, I explored the dataset to understand its structure, identify data quality issues, and check if the data is reliable for decision-making.
 
-* `cleaned_customer_shopping_data.xlsx`
-  → Processed dataset after data cleaning and preprocessing
+### Work Done
 
-## 🔧 Data Cleaning Steps
+- Reviewed dataset structure (rows, columns, data types)  
+- Identified missing values, especially in review_rating  
+- Checked for inconsistencies in column naming and formatting  
+- Verified important fields like purchase amount, category, and location  
 
-The following steps were performed on the raw dataset:
+### Outcome
 
-* Removed missing/null values
-* Standardized column names
-* Converted data types (dates, numeric values)
-* Removed duplicates
-* Created new columns for better analysis
+- Understood data limitations and quality  
+- Prepared a clear base for cleaning and analysis  
+- Ensured data is usable for business insights  
 
-## 📌 Notes
+### Files
 
-* The cleaned dataset is used for SQL, Python (EDA), and Power BI dashboard
-* Raw data is kept for reference and reproducibility
+- raw_customer_shopping_data.xlsx → Original dataset  
+- cleaned_customer_shopping_data.xlsx → Final dataset used for analysis  
