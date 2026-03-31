@@ -59,7 +59,7 @@ An interactive dashboard was built to present insights:
 - Category and age group analysis  
 - Discount and customer behavior insights  
 - Location-based visualization (map)  
-- Slicers for filtering data  
+- Slicers for filtering the data  
 
 👉 Output: Easy-to-understand visual insights for decision-making  
 
